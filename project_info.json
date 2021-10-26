@@ -1,0 +1,5 @@
+{
+  "name": "Threading Tutorial",
+  "group": 0,
+  "entrypoint": "project/threadexample.py"
+}
