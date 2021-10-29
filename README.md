@@ -30,7 +30,7 @@ yield more values per interval.
 In this tutorial, we calculate this threshold for the ultrasonic and
 color sensors.
 
-# 🧵 Threads
+## 🧵 Threads
 
 A **thread** allows an action (ie, a piece of code like a function)
 to run in the background.
@@ -60,5 +60,12 @@ that should take place. Alternatively, we can write
 Thread(target=action).start()
 ```
 
-where action is a `FunctionType` that has already been defined or a
+where `action` is a `FunctionType` that has already been defined or a
 lambda (anonymous) function.
+
+## ❓ Questions
+
+1. What is the sampling rate corresponding to a sleep time of 1ms?
+2. How many threads can we run at once on the BrickPi?
+3. What happens if there are too many threads?
+4. How do we stop a thread once we no longer need it to run in the background?
